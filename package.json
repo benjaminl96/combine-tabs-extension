@@ -1,0 +1,17 @@
+{
+  "name": "combine-tabs-extension",
+  "version": "1.0.0",
+  "description": "Moves all tabs from all Chrome windows into one window.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

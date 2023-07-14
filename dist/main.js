@@ -1,0 +1,1 @@
+chrome.browserAction.onClicked.addListener((function(o){chrome.windows.getAll({populate:!0},(function(o){const t=o[0].id;for(let e=1;e<o.length;e++){const n=o[e];for(let o=0;o<n.tabs.length;o++){const e=n.tabs[o];chrome.tabs.move(e.id,{windowId:t,index:-1})}}}))}));
